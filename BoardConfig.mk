@@ -30,7 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := zerofltecan,zerofltetmo,zeroltecan,zeroltetmo
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltecan/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_zerofltecan_defconfig
+TARGET_KERNEL_CONFIG := dot_zerofltecan_defconfig
 
 # Radio
 BOARD_MODEM_TYPE := ss333
